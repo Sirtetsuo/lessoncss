@@ -89,3 +89,83 @@ nav li:hover:before {
 nav li:last-child:before {
     background: none;
 }
+
+nav #language {
+    background-color: rgb(156, 149, 149);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+header {
+    background: url(./assets/img/bg.jpg) fixed center/cover;
+    color: white;
+    padding: 60px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+header button {
+    padding: 10px;
+}
+
+.header-text {
+    background-color: white;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text p {
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.icon-part-container {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-icon-part {
+    padding: 60px;
+    color: white;
+}
+
+.list-icon-part h3 {
+    padding: 20px;
+}
+
+.list-icon-part p {
+    padding: 10px;
+}
+
+.list-icon-part button {
+    padding: 5px 20px;
+}
+
+.header-news {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.right-part button {
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 120px;
+}
+
+.left-part {
+    margin: 20px 120px;
+}
